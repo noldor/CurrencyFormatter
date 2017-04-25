@@ -1,0 +1,30 @@
+{
+    "name": "noldors/formatters",
+    "description": "Format and spell currency",
+    "keywords": ["arrays collections"],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "http://github.com/noldors/inflect"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "noldors/inflect": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Noldors\\Formatters\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Noldors\\Formatters\\Tests\\": "tests"
+        }
+    }
+}

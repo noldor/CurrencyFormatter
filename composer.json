@@ -1,7 +1,7 @@
 {
     "name": "noldors/formatters",
     "description": "Format and spell currency",
-    "keywords": ["arrays collections"],
+    "keywords": [""],
     "license": "MIT",
     "minimum-stability": "dev",
     "repositories": [

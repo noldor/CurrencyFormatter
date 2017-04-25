@@ -164,8 +164,8 @@ class CurrencyFormatter
     public static function make(
         string $locale = null,
         Inflector $inflector = null,
-        string $intCurrencyName,
-        string $fractionCurrencyName
+        string $intCurrencyName = '',
+        string $fractionCurrencyName = ''
     ): self {
         return new static($locale, $inflector, $intCurrencyName, $fractionCurrencyName);
     }
